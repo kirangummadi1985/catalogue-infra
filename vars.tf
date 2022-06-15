@@ -3,3 +3,11 @@ variable "COMPONENT" {}
 variable "ENV" {}
 variable "SUBNET_CIDR" {}
 variable "AZ" {}
+
+variable "ENGINE" {}
+variable "ENGINE_VERSION" {}
+variable "SKIP_FINAL_SNAPSHOT" {}
+variable "FAMILY" {}
+variable "NODE_TYPE" {}
+variable "NODE_COUNT" {}
+
