@@ -42,4 +42,6 @@ module "app" {
   PRIVATE_HOSTED_ZONE_ID  = module.vpc.PRIVATE_HOSTED_ZONE_ID
   DOCDB_ENDPOINT          = module.documentdb.DOCDB_ENDPOINT
   IAM_POLICY_CREATE       = true
+  DOCDB_USERNAME          = module.documentdb.DOCDB_USERNAME
+  DOCDB_PASSWORD          = module.documentdb.DOCDB_PASSWORD
 }
